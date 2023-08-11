@@ -16,7 +16,6 @@ export const StyledButton = styled.button<ButtonProps>`
 `;
 
 export const getVariantStyles = (props: ButtonProps) => {
-  console.log(props.backgroundColor)
   // const isPrimary = props.primary;
   const backgroundColor = props.backgroundColor ? props.backgroundColor : "#0089CC";
   const borderColor = props.borderColor ? props.borderColor : "#0089CC";
