@@ -20,7 +20,7 @@ export const getVariantStyles = (props: ButtonProps) => {
   const backgroundColor = props.backgroundColor ? props.backgroundColor : "#0089CC";
   const borderColor = props.borderColor ? props.borderColor : "#0089CC";
   
-  if (props.type === 'outline') {
+  if (props.buttonType === 'outline') {
     return css`
       color: ${backgroundColor};
       background-color: transparent;
@@ -32,7 +32,7 @@ export const getVariantStyles = (props: ButtonProps) => {
     `;
   }
 
-  if (props.type === 'link') {
+  if (props.buttonType === 'link') {
     return css`
       color: ${backgroundColor};
       background-color: transparent;

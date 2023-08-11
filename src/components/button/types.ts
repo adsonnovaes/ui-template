@@ -1,10 +1,9 @@
-// types.ts
-export interface ButtonProps {
-  // primary: boolean;
+import { ButtonHTMLAttributes } from 'react';
+
+export interface ButtonProps extends Omit<ButtonHTMLAttributes<HTMLButtonElement>, 'size'> {
   backgroundColor?: string;
   borderColor?: string;
   size: 'small' | 'medium' | 'large';
   label: string;
-  onClick?: Function;
-  type: 'default' | 'outline' | 'link'; // Adicionando novo tipo
+  buttonType: 'default' | 'outline' | 'link';
 }
