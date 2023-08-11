@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { CardProps } from './types';
 
 export const StyledCard = styled.div<CardProps>`
+  font-family: 'Roboto', sans-serif;
   background: #ffffff;
 
   border-radius: 6px;

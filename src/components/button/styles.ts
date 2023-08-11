@@ -3,7 +3,7 @@ import styled, { css } from 'styled-components';
 import { ButtonProps } from './types';
 
 export const StyledButton = styled.button<ButtonProps>`
-  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   border: 0;
   border-radius: 22px;
