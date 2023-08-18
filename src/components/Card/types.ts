@@ -6,6 +6,7 @@ export enum AlignmentProps {
 }
 
 export interface CardProps {
+  className?: string;
   direction?: 'row' | 'column';
   alignment?: AlignmentProps;
   gap?: string;
