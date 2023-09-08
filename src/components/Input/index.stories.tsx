@@ -1,10 +1,10 @@
 // index.stories.tsx
 import { Meta, StoryObj } from '@storybook/react';
-import { Input } from './index';
+import Input from './index';
 import { InputProps } from './types';
 
 export default {
-  title: 'Input',
+  title: 'Atoms/Input',
   component: Input,
 } as Meta<InputProps>;
 

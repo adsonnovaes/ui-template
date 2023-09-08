@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { CheckboxProps } from './types';
 import { StyledCheckbox } from './styles';
 
-export const Checkbox = ({
+const Checkbox = ({
   label,
   checked: propChecked,
   ...rest

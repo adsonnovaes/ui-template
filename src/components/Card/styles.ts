@@ -18,7 +18,7 @@ export const StyledCard = styled.div<CardProps>`
   justify-content: ${props => props.alignment || 'flex-start'};
 
   .item-example {
-    background: #dcdcdc;
+    background: #0089CC;
     border-radius: 4px;
 
     padding: 10px;

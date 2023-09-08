@@ -1,33 +1,38 @@
 // index.stories.tsx
-import { Meta, StoryObj } from '@storybook/react';
-import { Card } from './index';
-import { CardProps, AlignmentProps } from './types';
+import { Meta, StoryObj } from "@storybook/react";
+import Card from "./index";
+import { Text } from "../Text";
+import { CardProps, AlignmentProps } from "./types";
 
 export default {
-  title: 'Card',
+  title: "Atoms/Card",
   component: Card,
   args: {
     content: (
       <>
         <div className="item-example">
-          <p>Conteúdo do card aqui</p>
+          <Text typeTag="h2" color="#ffffff">
+            Conteúdo do card aqui
+          </Text>
         </div>
         <div className="item-example">
-          <p>Outro elemento no card</p>
+          <Text typeTag="h2" color="#ffffff">
+            Outro elemento no card
+          </Text>
         </div>
       </>
     ),
-    direction: 'column',
-    gap: '10px',
+    direction: "column",
+    gap: "10px",
   },
   argTypes: {
     alignment: {
       options: Object.keys(AlignmentProps),
       control: {
-        type: 'select',
-      }
-    }
-  }
+        type: "select",
+      },
+    },
+  },
 } as Meta<CardProps>;
 
 export const Default: StoryObj<CardProps> = {};

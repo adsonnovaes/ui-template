@@ -4,7 +4,7 @@ import Checkbox from './index';
 import { CheckboxProps } from './types';
 
 export default {
-  title: 'Checkbox',
+  title: 'Atoms/Checkbox',
   component: Checkbox,
 } as Meta<CheckboxProps>;
 

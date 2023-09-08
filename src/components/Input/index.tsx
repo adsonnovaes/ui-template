@@ -8,7 +8,7 @@ import {
   StyledErrorText,
 } from './styles';
 
-export const Input = ({
+const Input = ({
   label,
   error,
   showLabel = false,
@@ -24,3 +24,5 @@ export const Input = ({
     </StyledInputWrapper>
   );
 };
+
+export default Input;

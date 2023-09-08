@@ -3,7 +3,7 @@ import { Text } from './index';
 import { TextProps } from './types';
 
 export default {
-  title: 'Text',
+  title: 'Atoms/Text',
   component: Text,
   args: {
     typeTag: 'p',

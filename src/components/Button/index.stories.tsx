@@ -1,10 +1,10 @@
 // index.stories.tsx
 import { Meta, StoryObj } from '@storybook/react';
-import { Button } from './index';
+import Button from './index';
 import { ButtonProps } from './types';
 
 export default {
-  title: 'Botão',
+  title: 'Atoms/Button',
   component: Button,
   args: {
     label: 'Texto do Botão',
