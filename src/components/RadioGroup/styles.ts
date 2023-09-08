@@ -1,8 +1,11 @@
 import styled from 'styled-components';
+import { RadioGroupStyleProps } from './types';
 
-export const StyledRadioGroup = styled.div`
+export const StyledRadioGroup = styled.div<RadioGroupStyleProps>`
   display: flex;
-  flex-direction: column;
+
+  flex-direction: ${props => props.direction || 'column'};
+  justify-content: ${props => props.alignment || 'flex-start'};
 `;
 
 export const StyledLabel = styled.label`

@@ -6,6 +6,9 @@ import RadioGroup from './index';
 export default {
   title: 'Mulecules/Radio Group',
   component: RadioGroup,
+  args: {
+    direction: "column"
+  },
 } as Meta;
 
 const radioOptions: RadioOption[] = [

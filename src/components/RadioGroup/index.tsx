@@ -3,7 +3,9 @@ import React, { useState } from 'react';
 import { RadioGroupProps } from './types';
 import Radio from '../Radio';
 
-const RadioGroup: React.FC<RadioGroupProps> = ({ options, onChange }) => {
+import { StyledRadioGroup } from './styles';
+
+const RadioGroup = ({ options, onChange, ...props } : RadioGroupProps) => {
   const [selectedValue, setSelectedValue] = useState<string | undefined>(undefined);
 
   const handleRadioChange = (value: string) => {
@@ -12,7 +14,9 @@ const RadioGroup: React.FC<RadioGroupProps> = ({ options, onChange }) => {
   };
 
   return (
-    <div>
+    <StyledRadioGroup
+      {...props}
+    >
       {options.map(option => (
         <Radio
           key={option.value}
@@ -21,7 +25,7 @@ const RadioGroup: React.FC<RadioGroupProps> = ({ options, onChange }) => {
           onChange={() => handleRadioChange(option.value)}
         />
       ))}
-    </div>
+    </StyledRadioGroup>
   );
 };
 
