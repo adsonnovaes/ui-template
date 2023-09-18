@@ -1,5 +1,5 @@
 import { Meta, StoryObj } from '@storybook/react';
-import { Text } from './index';
+import Text from './index';
 import { TextProps } from './types';
 
 export default {

@@ -1,7 +1,7 @@
 // index.stories.tsx
 import { Meta, StoryObj } from "@storybook/react";
 import Card from "./index";
-import { Text } from "../Text";
+import Text from "../Text";
 import { CardProps, AlignmentProps } from "./types";
 
 export default {
