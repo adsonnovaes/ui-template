@@ -19,9 +19,6 @@ export const StyledCheckbox = styled.label<CheckboxProps>`
     cursor: pointer;
 
     &:checked {
-      background: #0089CC;
-      border-color: #0089CC;
-
       background: ${props => props.backgroundColor || '#0089CC'};
       border-color: ${props => props.backgroundColor || '#0089CC'};
     }

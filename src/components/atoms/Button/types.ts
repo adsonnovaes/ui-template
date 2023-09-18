@@ -5,5 +5,5 @@ export interface ButtonProps extends Omit<ButtonHTMLAttributes<HTMLButtonElement
   borderColor?: string;
   size: 'small' | 'medium' | 'large';
   label: string;
-  buttonType: 'default' | 'outline' | 'link';
+  buttontype: 'default' | 'outline' | 'link';
 }

@@ -10,7 +10,7 @@ export enum TextTypeTag {
 }
 
 export interface TextProps {
-  typeTag: keyof typeof TextTypeTag;
+  typetag: keyof typeof TextTypeTag;
   weight?: number;
   color?: string;
   children: React.ReactNode;

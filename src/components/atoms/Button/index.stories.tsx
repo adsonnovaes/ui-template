@@ -8,9 +8,8 @@ export default {
   component: Button,
   args: {
     label: 'Texto do Botão',
-    // primary: true,
     size: 'medium',
-    buttonType: 'default',
+    buttontype: 'default',
   },
 } as Meta<ButtonProps>;
 
@@ -18,12 +17,12 @@ export const Default: StoryObj<ButtonProps> = {};
 
 export const Outline: StoryObj<ButtonProps> = {
   args: {
-    buttonType: 'outline',
+    buttontype: 'outline',
   },
 };
 
 export const Link: StoryObj<ButtonProps> = {
   args: {
-    buttonType: 'link',
+    buttontype: 'link',
   },
 };

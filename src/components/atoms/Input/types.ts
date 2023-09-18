@@ -6,9 +6,3 @@ export interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
   error?: string;
   showLabel?: boolean;
 }
-
-export enum InputType {
-  text = 'text',
-  password = 'password',
-  email = 'email',
-}

@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 
 import { RadioGroupProps } from './types';
-import Radio from '../Radio';
 
 import { StyledRadioGroup } from './styles';
+import Radio from '../../atoms/Radio';
 
 const RadioGroup = ({ options, onChange, ...props } : RadioGroupProps) => {
   const [selectedValue, setSelectedValue] = useState<string | undefined>(undefined);

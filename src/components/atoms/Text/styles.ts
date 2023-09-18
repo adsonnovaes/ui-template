@@ -7,14 +7,14 @@ export const StyledText = styled.span<TextProps>`
   font-weight: ${({ weight }) => weight || 'normal'};
   display: block;
 
-  ${({ typeTag }) => {
-    if (typeTag === TextTypeTag.strong) {
+  ${({ typetag }) => {
+    if (typetag === TextTypeTag.strong) {
       return css`
         font-weight: bold;
       `;
     }
 
-    switch (typeTag) {
+    switch (typetag) {
       case TextTypeTag.h1:
         return 'font-size: 28px;';
       case TextTypeTag.h2:

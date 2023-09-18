@@ -11,12 +11,12 @@ export default {
     content: (
       <>
         <div className="item-example">
-          <Text typeTag="h2" color="#ffffff">
+          <Text typetag="h2" color="#ffffff">
             Conteúdo do card aqui
           </Text>
         </div>
         <div className="item-example">
-          <Text typeTag="h2" color="#ffffff">
+          <Text typetag="h2" color="#ffffff">
             Outro elemento no card
           </Text>
         </div>

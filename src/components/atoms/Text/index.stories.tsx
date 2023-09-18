@@ -6,7 +6,7 @@ export default {
   title: 'Atoms/Text',
   component: Text,
   args: {
-    typeTag: 'p',
+    typetag: 'p',
     weight: 500,
     color: '#232323',
     children: 'Texto de exemplo',
