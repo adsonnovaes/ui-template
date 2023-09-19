@@ -1,4 +1,6 @@
 // Checkbox.tsx
+import React from 'react';
+
 import { useState } from 'react';
 import { CheckboxProps } from './types';
 import { StyledCheckbox } from './styles';

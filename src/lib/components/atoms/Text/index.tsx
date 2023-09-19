@@ -1,3 +1,5 @@
+import React from 'react';
+
 import { TextProps } from './types';
 import { StyledText } from './styles';
 

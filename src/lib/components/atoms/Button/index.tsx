@@ -1,5 +1,5 @@
 // button.tsx
-import { forwardRef } from "react";
+import React, { forwardRef } from 'react';
 
 import { ButtonProps } from "./types";
 import { StyledButton } from "./styles";
