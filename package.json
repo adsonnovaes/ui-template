@@ -1,6 +1,6 @@
 {
   "name": "ui-template-tcc",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "private": false,
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
