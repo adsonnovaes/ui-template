@@ -1,46 +1,57 @@
-# Getting Started with Create React App
+# Configuração e Uso da Biblioteca ui-template-tcc
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A biblioteca **ui-template-tcc** é uma coleção de componentes React desenvolvidos para fins acadêmicos. Este guia descreve como instalar e usar a biblioteca em seu projeto.
 
-## Available Scripts
+## Instalação
 
-In the project directory, you can run:
+Para começar a usar a biblioteca **ui-template-tcc** em seu projeto, você pode instalá-la via npm ou yarn.
 
-### `npm start`
+### Via npm
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```bash
+npm install ui-template-tcc
+```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Via yarn
+```bash
+yarn add ui-template-tcc  
+```
 
-### `npm test`
+## Utilização
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Depois de instalar a biblioteca, você pode importar os componentes e usá-los em seu aplicativo React.
 
-### `npm run build`
+```javascript
+import React from 'react';
+import { Button } from 'ui-template-tcc';
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+function App() {
+  return (
+    <div>
+      <Button
+        buttontype="default"
+        label="Texto do Botão"
+        size="medium"
+      />
+    </div>
+  );
+}
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+export default App;
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Documentação 
 
-### `npm run eject`
+Certifique-se de verificar a documentação dos componentes para entender as propriedades disponíveis e como usá-las.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Storybook
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Para ver mais exemplos de componentes e suas propriedades, você pode visitar a [documentação do Storybook da biblioteca](https://ui-template-kappa.vercel.app/?path=/docs/atoms-button--docs).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Nota
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Este projeto é um trabalho acadêmico e está disponível no npm registry:
 
-## Learn More
+[NPM Registry - ui-template-tcc](https://www.npmjs.com/package/ui-template-tcc)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Desenvolvido com React, TypeScript, Styled-Components e Storybook.
