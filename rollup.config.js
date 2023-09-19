@@ -32,7 +32,7 @@ export default [
     external: ["react", "react-dom", "styled-components"],
   },
   {
-    input: "src/lib/index.ts",
+    input: "src/lib/types.ts",
     output: [{ file: "dist/types.d.ts", format: "es" }],
     plugins: [dts()],
   },
